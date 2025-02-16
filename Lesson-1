@@ -1,5 +1,13 @@
 Objective: To demonstrate the lifecycle of containers for efficient management and optimization of Docker container orchestration
 
 Step 1: Demonstrate Docker container lifecycle management
-  1.1 Pull a Docker image from Docker hub using the following 
+    1.1 Pull a Docker image from Docker hub using the following 
       command: sudo docker pull nginx
+
+    1.2 Execute the following command to run a container from the Nginx image: 
+      sudo docker run -d --name my-nginx -p 8080:80 nginx
+    1.3 Run the following command to list the running containers:
+      sudo docker ps
+    1.4 Open a web browser and navigate to http://localhost:8080 to view the default Nginx welcome page
+    1.5 Execute the following command to inspect the details of the running container, including its configuration and                  networking information. 
+        sudo docker inspect my-nginx
