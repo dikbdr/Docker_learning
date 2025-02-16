@@ -1,0 +1,5 @@
+Objective: To demonstrate the lifecycle of containers for efficient management and optimization of Docker container orchestration
+
+Step 1: Demonstrate Docker container lifecycle management
+  1.1 Pull a Docker image from Docker hub using the following 
+      command: sudo docker pull nginx
